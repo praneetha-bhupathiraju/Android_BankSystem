@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="#00bbff">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPDATE YOUR ACCOUNT"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="25dp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/esearch"
+        android:hint="Search"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fullName"
+        android:hint="Enter your full name"
+        android:layout_below="@+id/esearch"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/AccountNumber"
+        android:layout_below="@+id/fullName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/fullName"
+        android:layout_alignEnd="@+id/fullName"
+        android:hint="Enter account number" />
+    <EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/Contact"
+    android:layout_below="@+id/AccountNumber"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignRight="@+id/AccountNumber"
+    android:layout_alignEnd="@+id/AccountNumber"
+    android:hint="Enter your contact" />
+    <EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/Address"
+
+    android:hint="Enter your Address" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Branch"
+        android:hint="Enter the branch of your account" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:id="@+id/btnsave"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:id="@+id/btnupdate"
+        android:layout_alignTop="@+id/btnsave"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+   <!-- <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:id="@+id/btndel"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search All Record"
+        android:id="@+id/btnselect"
+        android:layout_alignTop="@+id/btnselectperticular"
+        android:layout_alignLeft="@+id/btndel"
+        android:layout_alignStart="@+id/btndel" />
+   <!-- <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:id="@+id/btnselectperticular"
+        android:layout_below="@+id/btnsave"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>-->
+</LinearLayout>
